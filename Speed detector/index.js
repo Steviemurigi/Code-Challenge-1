@@ -10,6 +10,6 @@ function speedChecker (speed){
     } else if (demerit > 12){
         console.log ("License suspended")
     } else {
-        console.log (`Points: ${demerit}`)
+        console.log (`Demerit Points: ${demerit}`)
     }
 }
