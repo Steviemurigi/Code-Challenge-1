@@ -25,3 +25,10 @@ The code then checks the value of the 'demerit' variable.
 •	If 'demerit' is greater than 12, the driver has exceeded the speed limit and the message 'License suspended' is logged to the console. 
 •	If 'demerit' is greater than 0 but less than or equal to 12 , the number of demerit points is then logged to the console.
 This function is called using the desired speed as argument: speedChecker(speed).
+
+# Net Salary Calculator
+This is a program that calculates an Individual's Net Salary by getting the inputs of basic salary and benefits. It also calculates the PAYE, NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+
+* Program execution:
+The function 'netSalary' takes two parameters called 'basicSalary' and 'benefits'. Inside the function a constant variable is declared and named 'grossSalary' That variable is assigned the value of 'basicSalary' plus 'benefits'. The 'PAYE' variable is then declared using let. The code uses 'if...else' statements to assign the correct 'PAYE' value depending on the 'grossSalary'. Another variable called 'nhifDeduction' is declared using the let variable and uses 'if...else' statements to calculate the NHIF deduction depending with the salary. A const 'nssf' variable is declared which calculates the 'nssf' value at 6% of 'grossSalary'. Lastly, the 'netsalary' variable is declared as a constant and its value is the result of 'grossSalary - PAYE - nhifDeduction - nssf'. The last part console logs the various variables like 'PAYE', 'nhifDeduction', 'nssf' and 'net salary' depending on the parameters in the 'netSalary' function.
+We use this function by calling netSalary(basicSalary,benefits) using the two parameters as arguments.
