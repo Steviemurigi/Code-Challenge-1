@@ -1,4 +1,4 @@
-function gradeAllocator(marks) {
+function gradeAllocator() {
     const marks = prompt('Enter student\'s marks');
     if (isNaN(marks) || marks < 0 || marks > 100) { 
         console.log("Invalid input. Please enter a valid number ranging from 0 to 100.");
@@ -16,4 +16,5 @@ function gradeAllocator(marks) {
     } else {
         grade = 'E'
     }
+console.log(`Grade: ${grade}`);    
 }
