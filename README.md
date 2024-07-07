@@ -2,7 +2,7 @@
 # Student Grade Generator
 This is a program that is used to allocate grades depending on different student marks. 
 
-*Program execution.
+* Program execution.
 The function gradeAllocater contains no parameters. Inside it, a new variable called 'marks' is declared using const and is assigned the value returned by the 'prompt()' function. The 'isNaN()' function is then used to check if the input is a valid number between 0 and 100. If not, it displays that the input is invalid, and a valid number is needed. The 'return' statement exits the function early preventing further execution of the code. If the input is valid, a new variable called 'grade' is created. The code then uses 'if...else' statements to assign the correct grade depending on the 'marks' value.The allocation is as follows:
 •	If 'marks' is greater than 79, the grade assigned is 'A'.
 •	If 'marks' is greater than or equal to 60, the grade assigned is 'B'.
